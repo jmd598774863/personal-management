@@ -64,6 +64,7 @@ public class TaskController implements TaskApiController {
     //调用别人
     @Override
     public String getOrder() {
-        return rpcOrderService.getOrders();
+        return "";
+//        return rpcOrderService.getOrders();
     }
 }
